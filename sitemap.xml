@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- REPLACE example.com with the bought domain before submitting to Search Console -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/index.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-check-by-reference-number.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-duplicate-bill-download.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-without-reference-number.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-payment.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/understanding-mepco-bill-charges.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-complaint-helpline.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-sms-check.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-check-multan.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-check-khanewal.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-check-sahiwal.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-check-bahawalpur.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-check-bahawalnagar.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-check-muzaffargarh.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-check-dera-ghazi-khan.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-check-rahim-yar-khan.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-check-vehari.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-check-lodhran.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-check-layyah.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-check-rajanpur.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/mepco-bill-check-pakpattan.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/electrician-in-multan.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/electrician-in-khanewal.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/electrician-in-sahiwal.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/electrician-in-bahawalpur.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/electrician-in-bahawalnagar.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/electrician-in-muzaffargarh.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/electrician-in-dera-ghazi-khan.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/electrician-in-rahim-yar-khan.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/electrician-in-vehari.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/electrician-in-lodhran.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/electrician-in-layyah.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/electrician-in-rajanpur.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://example.com/electrician-in-pakpattan.html</loc><lastmod>2026-11-24</lastmod></url>
+</urlset>

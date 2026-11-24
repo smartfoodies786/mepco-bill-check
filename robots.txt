@@ -1,0 +1,5 @@
+# REPLACE example.com with the bought domain before submitting to Search Console
+User-agent: *
+Allow: /
+
+Sitemap: https://example.com/sitemap.xml

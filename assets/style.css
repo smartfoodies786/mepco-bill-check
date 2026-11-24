@@ -1,0 +1,264 @@
+/* MEPCO Bill Check — shared stylesheet
+   Clean, fast, professional, mobile-first. No frameworks, no web fonts,
+   no images. Shared by every page on the MEPCO site. */
+
+:root {
+  --green: #0b6e3f;
+  --green-dark: #085530;
+  --green-light: #e8f5ee;
+  --amber: #b45309;
+  --amber-light: #fef3c7;
+  --ink: #1a1a1a;
+  --muted: #555;
+  --line: #ddd;
+  --bg: #fff;
+  --bg-soft: #f6f6f4;
+  --red: #b91c1c;
+  --radius: 10px;
+  --max: 760px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--bg);
+}
+
+a { color: var(--green); }
+a:hover { color: var(--green-dark); }
+
+h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 .5rem; }
+h2 { font-size: 1.3rem; line-height: 1.3; margin: 2rem 0 .6rem; padding-top: 1.2rem; border-top: 1px solid var(--line); }
+h3 { font-size: 1.1rem; margin: 1.2rem 0 .4rem; }
+p { margin: 0 0 .8rem; }
+ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+li { margin-bottom: .35rem; }
+
+/* ---------- Header / nav ---------- */
+.site-header {
+  background: var(--green);
+  color: #fff;
+  padding: .8rem 1rem;
+}
+.site-header .wrap,
+.site-footer .wrap,
+main.wrap { max-width: var(--max); margin: 0 auto; padding-left: 1rem; padding-right: 1rem; }
+.site-header a { color: #fff; text-decoration: none; }
+.site-header .brand { font-weight: 700; font-size: 1.15rem; display: block; }
+.site-header .brand small { display: block; font-weight: 400; font-size: .85rem; opacity: .9; }
+.site-nav { margin-top: .5rem; font-size: .92rem; }
+.site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .2rem 1rem; }
+.site-nav li { margin: 0; }
+.site-nav a { text-decoration: underline; text-underline-offset: 2px; }
+
+main.wrap { padding-top: 1.2rem; padding-bottom: 2rem; }
+
+/* ---------- Freshness stamp ---------- */
+.stamp {
+  display: inline-block;
+  background: var(--green-light);
+  border: 1px solid var(--green);
+  color: var(--green-dark);
+  font-size: .88rem;
+  font-weight: 600;
+  padding: .25rem .6rem;
+  border-radius: 999px;
+  margin: .4rem 0 1rem;
+}
+.freshness {
+  background: var(--amber-light);
+  border-left: 4px solid var(--amber);
+  padding: .6rem .8rem;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  margin: 0 0 1.2rem;
+}
+.freshness strong { color: var(--amber); }
+
+/* ---------- Checker box ---------- */
+.checker-box {
+  background: var(--bg-soft);
+  border: 2px solid var(--green);
+  border-radius: var(--radius);
+  padding: 1.1rem 1rem 1rem;
+  margin: 0 0 1.2rem;
+}
+.checker-box h2 { border: 0; padding: 0; margin: 0 0 .4rem; }
+.checker-box label { display: block; font-weight: 600; margin: .7rem 0 .25rem; }
+.checker-box input[type="text"],
+.checker-box input[type="tel"],
+.checker-box select {
+  width: 100%;
+  font-size: 1.05rem;
+  padding: .65rem .7rem;
+  border: 1px solid #999;
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink);
+}
+.checker-box input:focus,
+.checker-box select:focus { outline: 3px solid var(--green); outline-offset: 1px; }
+.checker-row { display: flex; gap: .6rem; flex-wrap: wrap; }
+.checker-row .ref-field { flex: 1 1 220px; }
+.checker-row .ur-field { flex: 0 0 130px; }
+.checker-note { font-size: .9rem; color: var(--muted); margin: .7rem 0 0; }
+.checker-error { color: var(--red); font-weight: 600; font-size: .95rem; margin: .6rem 0 0; }
+.checker-error[hidden] { display: none; }
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-block;
+  background: var(--green);
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 0;
+  border-radius: 6px;
+  padding: .7rem 1.4rem;
+  margin-top: .9rem;
+  cursor: pointer;
+  text-align: center;
+}
+.btn:hover, .btn:focus { background: var(--green-dark); color: #fff; }
+.btn-secondary {
+  background: #fff;
+  color: var(--green);
+  border: 2px solid var(--green);
+}
+.btn-secondary:hover, .btn-secondary:focus { background: var(--green-light); color: var(--green-dark); }
+
+/* ---------- Callout / tip / mascot ---------- */
+.callout {
+  background: var(--green-light);
+  border: 1px solid var(--green);
+  border-radius: var(--radius);
+  padding: .8rem 1rem;
+  margin: 1rem 0;
+}
+.tip {
+  background: #fffbeb;
+  border: 1px solid #d9a406;
+  border-radius: var(--radius);
+  padding: .8rem 1rem;
+  margin: 1rem 0;
+}
+/* Bijli Bhai — mascot tip box. Text only, no photo. */
+.bijli-bhai {
+  background: var(--amber-light);
+  border: 2px dashed var(--amber);
+  border-radius: var(--radius);
+  padding: .9rem 1rem;
+  margin: 1.2rem 0;
+}
+.bijli-bhai .bijli-bhai-title { font-weight: 700; color: var(--amber); margin: 0 0 .3rem; }
+.bijli-bhai p:last-child { margin-bottom: 0; }
+
+/* ---------- Steps ---------- */
+.steps { counter-reset: step; list-style: none; padding-left: 0; }
+.steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 2.4rem;
+  margin-bottom: .9rem;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0; top: 0;
+  width: 1.7rem; height: 1.7rem;
+  background: var(--green);
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.7rem;
+  border-radius: 50%;
+}
+
+/* ---------- Tables ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 1rem;
+  font-size: .97rem;
+}
+th, td { border: 1px solid var(--line); padding: .55rem .6rem; text-align: left; vertical-align: top; }
+th { background: var(--bg-soft); }
+.table-wrap { overflow-x: auto; }
+
+/* ---------- District list ---------- */
+.districts { columns: 2; column-gap: 1.5rem; }
+.districts li { break-inside: avoid; }
+
+/* ---------- Payment / complaint strips ---------- */
+.strip {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: .9rem 1rem;
+  margin: 1rem 0;
+  background: var(--bg-soft);
+}
+.strip h3 { margin-top: 0; }
+.strip p:last-child { margin-bottom: 0; }
+.strip .big-number { font-size: 1.25rem; font-weight: 700; color: var(--green-dark); }
+
+/* ---------- Quick answers ---------- */
+.quick-answers { list-style: none; padding-left: 0; }
+.quick-answers li { margin-bottom: .7rem; padding-left: 1.3rem; position: relative; }
+.quick-answers li::before { content: "✓"; position: absolute; left: 0; color: var(--green); font-weight: 700; }
+
+/* ---------- FAQ ---------- */
+.faq { margin: 0 0 1rem; }
+.faq details {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: .6rem .8rem;
+  margin-bottom: .6rem;
+  background: #fff;
+}
+.faq summary { font-weight: 700; cursor: pointer; }
+.faq summary:hover { color: var(--green-dark); }
+.faq details p:last-child { margin-bottom: 0; }
+.faq details p { margin-top: .5rem; }
+
+/* ---------- Guide links ---------- */
+.guide-links { list-style: none; padding-left: 0; }
+.guide-links li { margin-bottom: .55rem; }
+.guide-links a { font-weight: 600; }
+
+/* ---------- Footer ---------- */
+.site-footer {
+  background: var(--bg-soft);
+  border-top: 2px solid var(--green);
+  color: var(--muted);
+  font-size: .9rem;
+  padding: 1.2rem 1rem 2rem;
+}
+.site-footer a { color: var(--green-dark); }
+.disclaimer { font-size: .88rem; }
+
+/* ---------- Wider screens ---------- */
+@media (min-width: 640px) {
+  h1 { font-size: 2rem; }
+  .districts { columns: 3; }
+}
+
+/* ---------- Trust badges ---------- */
+.badges { display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; margin: 0 0 1.2rem; }
+.badges li { background: var(--green-light); border: 1px solid var(--green); color: var(--green-dark); font-size: .9rem; font-weight: 600; padding: .35rem .7rem; border-radius: 999px; margin: 0; }
+
+/* ---------- Example cases ---------- */
+.example-label { display: inline-block; background: var(--amber-light); border: 1px solid var(--amber); color: var(--amber); font-weight: 700; font-size: .85rem; padding: .2rem .55rem; border-radius: 6px; margin-bottom: .5rem; }
+tr.ours td { background: var(--green-light); }
+
+/* ---------- Calculator ---------- */
+.calc { background: var(--bg-soft); border: 2px solid var(--green); border-radius: var(--radius); padding: 1rem; margin: 1rem 0; }
+.calc h3 { margin-top: 0; }
+.calc input[type="range"] { width: 100%; accent-color: var(--green); }
+.calc-output { font-weight: 700; margin-top: .5rem; }
+.calc-note { font-size: .9rem; color: var(--muted); }
+.digit-counter { font-size: .92rem; font-weight: 700; color: var(--green-dark); margin: .4rem 0 0; }
